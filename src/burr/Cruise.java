@@ -11,7 +11,7 @@ public class Cruise implements Expense {
    * Creates a new Cruise to the specified destination.
    * @param destination Where are you crusing to?
    */
-  public Cruise(Destination destination) {
+  Cruise(Destination destination) {
     this.destination = destination;
   }
 
